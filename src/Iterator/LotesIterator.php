@@ -34,6 +34,8 @@ class LotesIterator extends AbstractIterator
         $download           = '#';
 
         $lotes = new \stdClass();
+        $lotes->idLote = new \stdClass();
+
         $lotes->lote            = $lote;
         $lotes->fase            = utf8_decode(trim($fase));
         $lotes->situacao        = utf8_decode(trim($situacao));

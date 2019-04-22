@@ -13,6 +13,7 @@ use Forseti\Bot\Name\Iterator\AndamentoIterator;
 use Forseti\Bot\Name\Iterator\FuturosIterator;
 use Forseti\Bot\Name\Iterator\LotesIterator;
 use Forseti\Bot\Name\Iterator\SessaoForLotesIterator;
+use Forseti\Bot\Name\Iterator\EditaisIterator;
 
 
 class DefaultParser extends AbstractParser
@@ -40,6 +41,11 @@ class DefaultParser extends AbstractParser
     public function getSessaoForLotesIterator($xpath)
     {
         return new SessaoForLotesIterator($this->getHtml(), $xpath);
+    }
+
+    public function getEditaisIterator($xpath)
+    {
+        return new EditaisIterator($this->getHtml(), $xpath);
     }
 
 }
