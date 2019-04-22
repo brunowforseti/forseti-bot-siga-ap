@@ -10,6 +10,6 @@ $byId = $page->getById('10647');
 
 echo "<pre>";
 var_dump($byId);
-die();
-die();
 die('qq');
+die();
+die();
