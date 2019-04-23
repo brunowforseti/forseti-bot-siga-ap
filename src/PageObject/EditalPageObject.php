@@ -3,182 +3,21 @@
  * Created by PhpStorm.
  * User: joaosilva
  * Date: 01/02/19
- * Time: 08:41
+ * Time: 08:40
  */
 
 namespace Forseti\Bot\Name\PageObject;
 
-use Forseti\Bot\Name\Factory\GuzzleClientFactory;
-use Forseti\Bot\Name\Traits\ForsetiLoggerTrait;
-use GuzzleHttp\Exception\GuzzleException;
-use Symfony\Component\DomCrawler\Crawler;
 use Forseti\Bot\Name\Parser\DefaultParser;
+use Forseti\Bot\Name\Enums\DefaultLink;
 
-abstract class AbstractPageObject
+class EditalPageObject extends AbstractPageObject
 {
-    use ForsetiLoggerTrait;
-
-    protected $client;
-
-    public function __construct()
+    public function getPage($link)
     {
-        $this->client = GuzzleClientFactory::getInstance();
+        $response = $this->client->get($link);
+        return new DefaultParser($response->getBody()->getContents());
     }
-
-    public function request($method, $uri, array $options = [])
-    {
-
-        try {
-            return $this->client->request($method, $uri, $options);
-        } catch (GuzzleException $e) {
-            $this->error('Erro ao tentar requisicao', ['exception' => $e]);
-            return null;
-        } catch (\Exception $e) {
-            $this->error('Erro ao tentar requisicao', ['exception' => $e]);
-            return null;
-        }
-    }
-
-    public function getViewState($url = false)
-    {
-        if (!$url)
-            $url = 'http://www.siga.ap.gov.br/sgc/faces/pub/sgc/pregao/AssistirPageList.jsp';
-
-        $request = $this->client->request('GET', $url);
-        $html = $request->getBody()->getContents();
-        $crawler = new Crawler();
-        $crawler->addHtmlContent($html,'ISO-8859-1');
-        $vs = $crawler->filterXpath('(//input[@id="javax.faces.ViewState"])')->attr('value');
-        return $vs;
-    }
-
-    public function getAndamento()
-    {
-        $po = new DefaultPageObject();
-        $vs = $this->getViewState();
-        $parserAndamento = $po->getPage('http://www.siga.ap.gov.br/sgc/faces/pub/sgc/pregao/AssistirPageList.jsp');
-        $linhas = $parserAndamento->getAndamentoIterator('//table[@id="formAssistirPageList:agendaDataTable"]/tbody//tr[position() > 0]');
-        foreach ($linhas as $key => $l) {
-            /*$l->loteInfo = $this->getById($l->id);*/
-            $idsComps[] = $l;
-        }
-        return $idsComps;
-    }
-
-    public function getFuturos()
-    {
-        $po = new DefaultPageObject();
-        $vs = $this->getViewState();
-        $parserFuturos = $po->getPage('http://www.siga.ap.gov.br/sgc/faces/pub/sgc/pregao/FuturosPageList.jsp');
-        $linhas = $parserFuturos->getFuturosIterator('//table[@id="formFuturosPageList:agendaDataTable"]/tbody//tr[position() > 0]');
-
-        foreach ($linhas as $key => $l) {
-            $idsComps[] = $l;
-        }
-
-        return $idsComps;
-    }
-
-    public function getById($id = false)
-    {
-        if (!$id){
-            die("Insira um ID Válido.");
-        }
-        $po = new DefaultPageObject();
-        $vs = $this->getViewState('http://www.siga.ap.gov.br/sgc/faces/pub/sgc/pregao/PregaoPageView.jsp');
-
-
-        // PAGINAÇÃO //
-        $requestPage = $this->request('POST', 'http://www.siga.ap.gov.br/sgc/faces/pub/sgc/pregao/PregaoPageView.jsp', [
-                'form_params' => [
-                    'AJAXREQUEST'  => 'j_id_jsp_55323938_0',
-                    'form1' => 'form1',
-                    'form1:aboutModalHeadOpenedState'   =>  '',
-                    'form1:idPregao' => $id,
-                    'javax.faces.ViewState' => $vs,
-                    'ajaxSingle' => 'form1:listaDataTable:j_id_jsp_55323938_45',
-                    'form1:listaDataTable:j_id_jsp_55323938_45' => 1,
-                    'AJAX:EVENTS_COUNT' => '1'
-                ]
-        ]);
-        $crawler = new Crawler();
-        $crawler->addHtmlContent($requestPage->getBody()->getContents(),'ISO-8859-1');
-        $pageQtd = $crawler->filterXpath('(//table[@id="form1:listaDataTable:j_id_jsp_55323938_45_table"]//tr//td)')->count()-1;
-        // FIM PAGINACAO //
-
-        // COMECO CODIGO COM A PAGINACAO //
-        for ($i=1; $i < $pageQtd ; $i++) { 
-            $request = $this->request('POST', 'http://www.siga.ap.gov.br/sgc/faces/pub/sgc/pregao/PregaoPageView.jsp', [
-                    'form_params' => [
-                        'AJAXREQUEST'  => 'j_id_jsp_55323938_0',
-                        'form1' => 'form1',
-                        'form1:aboutModalHeadOpenedState'   =>  '',
-                        'form1:idPregao' => $id,
-                        'javax.faces.ViewState' => $vs,
-                        'ajaxSingle' => 'form1:listaDataTable:j_id_jsp_55323938_45',
-                        'form1:listaDataTable:j_id_jsp_55323938_45' => $i,
-                        'AJAX:EVENTS_COUNT' => '1'
-                    ]
-            ]);
-
-            $parserById = new DefaultParser($request->getBody()->getContents());
-            $linhas = $parserById->getLotesIterator('//tbody[@id="form1:listaDataTable:tb"]//tr[position() > 0]');
-
-            foreach ($linhas as $key => $l) {
-    /*            $loteInfo = $this->getByLote($l->idLote->id, $id);
-                $downloadLink = $this->getAtaDownload($l->idLote->id, $id);
-                $l->download = $downloadLink;
-                $l->idLote->sessao = $loteInfo;*/
-                $l->idPregao = $id;
-                $lotes[] = $l;
-            }
-        }
-        // FIM CODIGO COM A PAGINACAO //
-        return $lotes;
-    }
-
-    public function getByLote($idLote, $idPregao)
-    {
-        $po = new DefaultPageObject();
-        $link = 'http://www.siga.ap.gov.br/sgc/faces/pub/sgc/pregao/MensagemLerPageList.jsp?pregao='.$idPregao.'&lotePregao='.$idLote;
-        $getMensagem = $po->getPage($link);
-        $linhasThru = $getMensagem->getSessaoForLotesIterator('//table[@id="mensagensDataTable"]//tr[position() > 0]');
-        foreach ($linhasThru as $key => $l) {
-            $mensagem[] = $l;
-        }
-        return $mensagem;
-    }
-
-    public function getAtaDownload($idLote, $idPregao)
-    {
-        $path = __DIR__.'/download/'.$idPregao.'-'.$idLote.'-ATA.pdf';
-        if (!file_exists($path)){
-            $request = $this->client->request('GET', 'http://www.siga.ap.gov.br/sgc/faces/pub/sgc/pregao/AssistirPregaoPageView.jsp');
-            $html = $request->getBody()->getContents();
-            $crawler = new Crawler();
-            $crawler->addHtmlContent($html,'ISO-8859-1');
-            $vs = $crawler->filterXpath('(//input[@id="javax.faces.ViewState"])')->attr('value');
-            // $path = __DIR__.'/download/'.$idPregao.'-'.$idLote.'-ATA-'.date('d-m-Y-H-i-s').'.pdf';
-            $options = 
-            [
-                        'form_params' => [
-                            'form1' => 'form1',
-                            'form1:aboutModalHeadOpenedState' => '',
-                            'form1:idLote'    => $idLote,
-                            'form1:idPregao' => $idPregao,
-                            'form1:tempo'    => '0',
-                            'form1:imprimir1Button' => 'Imprimir Ata',
-                            'javax.faces.ViewState' => $vs
-                        ],
-                        'save_to'   => fopen($path,'w')
-            ];
-            $file_get = $this->request('POST', 'http://www.siga.ap.gov.br/sgc/faces/pub/sgc/pregao/AssistirPregaoPageView.jsp', $options);
-            return $path;
-        } else {
-            return $path;
-        }
-    }
-
     public function getAllEditais()
     {
         $po = new DefaultPageObject();
