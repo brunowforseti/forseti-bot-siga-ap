@@ -20,12 +20,6 @@ abstract class AbstractPageObject
 
     protected $client;
 
-    public function getPage($link)
-    {
-        $response = $this->client->get($link);
-        return new DefaultParser($response->getBody()->getContents());
-    }
-
     public function __construct()
     {
         $this->client = GuzzleClientFactory::getInstance();
@@ -43,6 +37,12 @@ abstract class AbstractPageObject
             $this->error('Erro ao tentar requisicao', ['exception' => $e]);
             return null;
         }
+    }
+
+    public function getPage($link)
+    {
+        $response = $this->client->get($link);
+        return new DefaultParser($response->getBody()->getContents());
     }
 
     public function getViewState($url = false)
