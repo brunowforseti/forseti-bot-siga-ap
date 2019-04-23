@@ -16,7 +16,7 @@ $page = new DefaultPageObject();
 $getEditais = $page->getAllEditais();
 echo "<pre>";
 var_dump($getEditais);
-die();
+die('q');
 /*$getEditalDownload = $page->getEditalDownload('10746');*/
 /*echo "<pre>";
 var_dump($getEditais);
