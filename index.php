@@ -1,7 +1,6 @@
 <?php
 require __DIR__ . '/vendor/autoload.php';
 
-use Forseti\Bot\Name\PageObject\DefaultPageObject;
 use Forseti\Bot\Name\PageObject\EditalPageObject;
 use Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject;
 use Forseti\Bot\Name\PageObject\PregoesFuturosPageObject;
