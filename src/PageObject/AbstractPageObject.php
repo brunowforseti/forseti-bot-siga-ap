@@ -137,6 +137,58 @@ abstract class AbstractPageObject
         return $lotes;
     }
 
+    public function getByItensDeDespesa($idEdital) 
+    {
+        $request = $this->client->request('GET', 'http://www.siga.ap.gov.br/sgc/faces/pub/sgc/central/EditalPageList.jsp');
+        $html = $request->getBody()->getContents();
+        $crawler = new Crawler();
+        $crawler->addHtmlContent($html,'ISO-8859-1');
+        $vs = $crawler->filterXpath('(//input[@id="javax.faces.ViewState"])')->attr('value');
+        $options2Page = 
+        [
+                    'form_params' => [
+                        'form_EditalPageList' => 'form_EditalPageList',
+                        'form_EditalPageList:aboutModalHeadOpenedState' => '',
+                        'form_EditalPageList:editaisBidHidden'    => false,
+                        'form_EditalPageList:procurarPorCombo' => 3,
+                        'form_EditalPageList:situacaoCombo'    => 1,
+                        'javax.faces.ViewState' => $vs,
+                        'form_EditalPageList:listaDataTable:0:downloadLink' => 'form_EditalPageList:listaDataTable:0:downloadLink',
+                        'idEdital' => $idEdital,
+                    ],
+        ];
+        $receiveParam = $this->request('POST', 'http://www.siga.ap.gov.br/sgc/faces/pub/sgc/central/EditalPageList.jsp', $options2Page);
+        $html2 = $receiveParam->getBody()->getContents();
+        $crawler2 = new Crawler();
+        $crawler2->addHtmlContent($html2,'ISO-8859-1');
+        $vs2 = $crawler2->filterXpath('(//input[@id="javax.faces.ViewState"])')->attr('value');
+        $options = 
+        [
+                    'form_params' => [
+                        'form1' => 'form1',
+                        'form1:aboutModalHeadOpenedState' => '',
+                        'form1:razaoSocialInput'    => 'Teste',
+                        'form1:emailInput' => 'teste@yopmail.com',
+                        'form1:cpfCnpjInput'    => '48462945011',
+                        'form1:telefoneInput' => '(11) 98989-8989',
+                        'form1:salvar2Button' => 'Salvar',
+                        'javax.faces.ViewState' => $vs2
+                    ],
+        ];
+        $file_get = $this->request('POST', 'http://www.siga.ap.gov.br/sgc/faces/pub/sgc/central/DownloadEditalPageList.jsp', $options);
+        $parserById = new DefaultParser($file_get->getBody()->getContents());
+        $linhasItens = $parserById->getDespesasIterator('//table[@id="form1:objetoProtegidoDataTable"]//tbody//tr[position() > 0]');
+
+        foreach ($linhasItens as $key => $l) {
+            $itens_despesa[] = $l;
+        }
+
+        if (isset($itens_despesa))
+            return $itens_despesa;
+        else
+            return '';
+    }
+
     public function getByLote($idLote, $idPregao)
     {
         $po = new DefaultPageObject();
@@ -186,6 +238,7 @@ abstract class AbstractPageObject
         $parser = $po->getPage('http://www.siga.ap.gov.br/sgc/faces/pub/sgc/central/EditalPageList.jsp');
         $linhas = $parser->getEditaisIterator('//table[@id="form_EditalPageList:listaDataTable"]/tbody//tr[position() > 0]');
         foreach ($linhas as $key => $l) {
+            $l->itens_despesa = $this->getByItensDeDespesa($l->download);
             $l->download = $this->getEditalDownload($l->download);
             $idsEditais[] = $l;
         }

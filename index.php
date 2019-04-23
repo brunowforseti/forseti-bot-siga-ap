@@ -8,15 +8,15 @@ $page = new DefaultPageObject();
 // consultas pregoes
 /*$andamento = $page->getAndamento();*/
 /*$futuros = $page->getFuturos();*/
-$byId = $page->getById('10627'); // faz a consulta pelo ID. 10728 tem..
-echo "<pre>";
-var_dump($byId);
+/*$byId = $page->getById('10627'); */// faz a consulta pelo ID. 10728 tem..
 
-die();
 // fim consulta pregoes
 
 // editais licitacao
 $getEditais = $page->getAllEditais();
+echo "<pre>";
+var_dump($getEditais);
+die();
 /*$getEditalDownload = $page->getEditalDownload('10746');*/
 /*echo "<pre>";
 var_dump($getEditais);

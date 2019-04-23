@@ -30,6 +30,7 @@ class EditaisIterator extends AbstractIterator
         $orgao          = $node->getElementsByTagName('span')->item(3)->textContent;
         $procedimento = $node->getElementsByTagName('td')->item(4)->textContent;
         $download              = $ids[$this->iterator->key()];
+        $id              = $ids[$this->iterator->key()];
 
         $andamento = new \stdClass();
         $andamento->data_abertura = $data_abertura;
@@ -37,6 +38,7 @@ class EditaisIterator extends AbstractIterator
         $andamento->objeto = utf8_decode(trim($objeto));
         $andamento->procedimento = utf8_decode(trim($procedimento));
         $andamento->download = $download;
+        $andamento->id = $id;
         return $andamento;
     }
 }
