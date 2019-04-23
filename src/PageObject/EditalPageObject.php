@@ -13,11 +13,8 @@ use Forseti\Bot\Name\Enums\DefaultLink;
 
 class EditalPageObject extends AbstractPageObject
 {
-    public function getPage($link)
-    {
-        $response = $this->client->get($link);
-        return new DefaultParser($response->getBody()->getContents());
-    }
+
+
     public function getAllEditais()
     {
         $po = new DefaultPageObject();
