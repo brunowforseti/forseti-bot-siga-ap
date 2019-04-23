@@ -2,23 +2,16 @@
 require __DIR__ . '/vendor/autoload.php';
 
 use Forseti\Bot\Name\PageObject\DefaultPageObject;
+use Forseti\Bot\Name\PageObject\EditalPageObject;
+use Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject;
+use Forseti\Bot\Name\PageObject\PregoesFuturosPageObject;
 
-$page = new DefaultPageObject();
+$editalPo = new EditalPageObject();
+$andamentoPo = new PregoesAndamentoPageObject();
+$futurosPo = new PregoesFuturosPageObject();
 
-// consultas pregoes
-/*$andamento = $page->getAndamento();*/
-/*$futuros = $page->getFuturos();*/
-/*$byId = $page->getById('10627'); */// faz a consulta pelo ID. 10728 tem..
-
-// fim consulta pregoes
-
-// editais licitacao
-$getEditais = $page->getAllEditais();
 echo "<pre>";
-var_dump($getEditais);
-die('q');
-/*$getEditalDownload = $page->getEditalDownload('10746');*/
-/*echo "<pre>";
-var_dump($getEditais);
-die();*/
-// fim editais licitacao
+/*var_dump($editalPo->getAllEditais());*/
+/*var_dump($andamentoPo->getAllAndamento());*/
+/*var_dump($futurosPo->getAllFuturos());*/
+die();
