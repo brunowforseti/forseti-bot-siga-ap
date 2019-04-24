@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: joaosilva
- * Date: 01/02/19
- * Time: 09:30
- */
 
 namespace Forseti\Bot\Name\Iterator;
 
@@ -34,13 +28,12 @@ class LotesIterator extends AbstractIterator
         $download           = '#';
 
         $lotes = new \stdClass();
-        $lotes->idLote = new \stdClass();
 
+        $lotes->idLote          = $idLote;
         $lotes->lote            = $lote;
-        $lotes->fase            = utf8_decode(trim($fase));
+        $lotes->fase            = utf8_decode(utf8_decode(trim($fase)));
         $lotes->situacao        = utf8_decode(trim($situacao));
         $lotes->resultado       = utf8_decode(trim($resultado));
-        $lotes->idLote->id      = $idLote;
         $lotes->download        = $download;
         return $lotes;
     }

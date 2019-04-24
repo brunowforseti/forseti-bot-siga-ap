@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: joaosilva
- * Date: 01/02/19
- * Time: 08:39
- */
 
 namespace Forseti\Bot\Name\Factory;
 

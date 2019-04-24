@@ -1,14 +1,7 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: joaosilva
- * Date: 01/02/19
- * Time: 08:40
- */
 
 namespace Forseti\Bot\Name\PageObject;
 
-use Forseti\Bot\Name\Parser\DefaultParser;
 use Forseti\Bot\Name\Parser\EditalParser;
 use Forseti\Bot\Name\Enums\DefaultLink;
 use Symfony\Component\DomCrawler\Crawler;
@@ -18,8 +11,9 @@ class EditalPageObject extends AbstractPageObject
     
     public function getAllEditais()
     {
-        $parser = $this->getPage(DefaultLink::EDITAL_PAGELIST);
-        $linhas = $parser->getEditaisIterator('//table[@id="form_EditalPageList:listaDataTable"]/tbody//tr[position() > 0]');
+        $html = $this->getPage(DefaultLink::EDITAL_PAGELIST, true);
+        $parserLinhas = new EditalParser($html);
+        $linhas = $parserLinhas->getEditaisIterator('//table[@id="form_EditalPageList:listaDataTable"]/tbody//tr[position() > 0]');
         foreach ($linhas as $key => $l) {
             $l->itens_despesa = $this->getDespesasEdital($l->download);
             $l->download = $this->getEditalDownload($l->download);
@@ -57,7 +51,7 @@ class EditalPageObject extends AbstractPageObject
                     ],
         ];
         $file_get = $this->request('POST', DefaultLink::EDITAL_DOWNLOAD, $options);
-        $parserById = new DefaultParser($file_get->getBody()->getContents());
+        $parserById = new EditalParser($file_get->getBody()->getContents());
         $linhasItens = $parserById->getDespesasIterator('//table[@id="form1:objetoProtegidoDataTable"]//tbody//tr[position() > 0]');
 
         foreach ($linhasItens as $key => $l) {

@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: joaosilva
- * Date: 14/03/19
- * Time: 11:31
- */
 
 namespace Forseti\Bot\Name\Traits;
 

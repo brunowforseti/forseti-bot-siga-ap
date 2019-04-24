@@ -1,1 +1,0 @@
-[{"Name":"JSESSIONID","Value":"8C6A2E2A3081BC93F402CC1713B7DBE5.compras4","Domain":"www.siga.ap.gov.br","Path":"\/sgc","Max-Age":null,"Expires":null,"Secure":false,"Discard":false,"HttpOnly":false}]

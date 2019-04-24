@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: joaosilva
- * Date: 01/02/19
- * Time: 08:41
- */
 
 namespace Forseti\Bot\Name\PageObject;
 
@@ -40,10 +34,14 @@ abstract class AbstractPageObject
         }
     }
 
-    public function getPage($link)
+    public function getPage($link, $DefaultParser = false)
     {
         $response = $this->client->get($link);
-        return new DefaultParser($response->getBody()->getContents());
+        if (!$DefaultParser){
+            return new DefaultParser($response->getBody()->getContents());
+        } else {
+            return $response->getBody()->getContents();
+        }
     }
 
     public function getViewState($url = false)

@@ -1,10 +1,14 @@
 <?php
 require __DIR__ . '/vendor/autoload.php';
-
+// Paginas //
 use Forseti\Bot\Name\Enums\DefaultLink;
 use Forseti\Bot\Name\PageObject\EditalPageObject;
 use Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject;
 use Forseti\Bot\Name\PageObject\PregoesFuturosPageObject;
+
+// Paginas //
+
+// Testes //
 use Forseti\Bot\Name\Test\PageObject\EditalDownloadPageObjectTest;
 use Forseti\Bot\Name\Test\PageObject\EditalPageListPageObjectTest;
 use Forseti\Bot\Name\Test\PageObject\FuturosPageViewPageObjectTest;
@@ -21,10 +25,11 @@ $futurosPo = new PregoesFuturosPageObject();
 // Paginas //
 
 echo "<pre>";
-// var_dump($editalPo->getAllEditais());
-// var_dump($andamentoPo->getAllAndamento());
-var_dump($futurosPo->getAllFuturos());
-// var_dump($andamentoPo->getById('10709'));
+/*var_dump($editalPo->getAllEditais());*/
+/*var_dump($andamentoPo->getAllAndamento());*/
+/*var_dump($futurosPo->getAllFuturos());*/
+/*var_dump($andamentoPo->getDataAberturaForPregao('10647'));*/
+/*var_dump($andamentoPo->getById('10709'));*/
 die();
 
 // Paginas // 

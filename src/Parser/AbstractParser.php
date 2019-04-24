@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: joaosilva
- * Date: 01/02/19
- * Time: 08:42
- */
 
 namespace Forseti\Bot\Name\Parser;
 
