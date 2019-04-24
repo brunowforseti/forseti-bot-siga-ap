@@ -18,7 +18,7 @@ class EditalPageObject extends AbstractPageObject
 
     public function getAllEditais()
     {
-        $parser = $this->getPage('http://www.siga.ap.gov.br/sgc/faces/pub/sgc/central/EditalPageList.jsp');
+        $parser = $this->getPage(DefaultLink::EDITAL_PAGELIST);
         $linhas = $parser->getEditaisIterator('//table[@id="form_EditalPageList:listaDataTable"]/tbody//tr[position() > 0]');
         foreach ($linhas as $key => $l) {
             $l->itens_despesa = $this->getDespesasEdital($l->download);
@@ -37,12 +37,12 @@ class EditalPageObject extends AbstractPageObject
 	                        'form_EditalPageList:editaisBidHidden'    => false,
 	                        'form_EditalPageList:procurarPorCombo' => 3,
 	                        'form_EditalPageList:situacaoCombo'    => 1,
-	                        'javax.faces.ViewState' => $this->getViewState('http://www.siga.ap.gov.br/sgc/faces/pub/sgc/central/EditalPageList.jsp'),
+	                        'javax.faces.ViewState' => $this->getViewState(DefaultLink::EDITAL_PAGELIST),
 	                        'form_EditalPageList:listaDataTable:0:downloadLink' => 'form_EditalPageList:listaDataTable:0:downloadLink',
 	                        'idEdital' => $idEdital,
 	                    ],
         ];
-        $receiveParam = $this->request('POST', 'http://www.siga.ap.gov.br/sgc/faces/pub/sgc/central/EditalPageList.jsp', $options2Page);
+        $receiveParam = $this->request('POST', DefaultLink::EDITAL_PAGELIST, $options2Page);
         
         $options = [
                     'form_params' => [
@@ -56,7 +56,7 @@ class EditalPageObject extends AbstractPageObject
                         'javax.faces.ViewState' => $this->getViewStateByRequest($receiveParam)
                     ],
         ];
-        $file_get = $this->request('POST', 'http://www.siga.ap.gov.br/sgc/faces/pub/sgc/central/DownloadEditalPageList.jsp', $options);
+        $file_get = $this->request('POST', DefaultLink::EDITAL_DOWNLOAD, $options);
         $parserById = new DefaultParser($file_get->getBody()->getContents());
         $linhasItens = $parserById->getDespesasIterator('//table[@id="form1:objetoProtegidoDataTable"]//tbody//tr[position() > 0]');
 
@@ -79,12 +79,12 @@ class EditalPageObject extends AbstractPageObject
 	                        'form_EditalPageList:editaisBidHidden'    => false,
 	                        'form_EditalPageList:procurarPorCombo' => 3,
 	                        'form_EditalPageList:situacaoCombo'    => 1,
-	                        'javax.faces.ViewState' => $this->getViewState('http://www.siga.ap.gov.br/sgc/faces/pub/sgc/central/EditalPageList.jsp'),
+	                        'javax.faces.ViewState' => $this->getViewState(DefaultLink::EDITAL_PAGELIST),
 	                        'form_EditalPageList:listaDataTable:0:downloadLink' => 'form_EditalPageList:listaDataTable:0:downloadLink',
 	                        'idEdital' => $idEdital,
 	                    ],
         ];
-        $acessoEdital = $this->request('POST', 'http://www.siga.ap.gov.br/sgc/faces/pub/sgc/central/EditalPageList.jsp', $options2Page);
+        $acessoEdital = $this->request('POST', DefaultLink::EDITAL_PAGELIST, $options2Page);
         $options = [
                     'form_params' => [
                         'form1' => 'form1',
@@ -97,7 +97,7 @@ class EditalPageObject extends AbstractPageObject
                         'javax.faces.ViewState' => $this->getViewStateByRequest($acessoEdital)
                     ],
         ];
-        $file_get = $this->request('POST', 'http://www.siga.ap.gov.br/sgc/faces/pub/sgc/central/DownloadEditalPageList.jsp', $options);
+        $file_get = $this->request('POST', DefaultLink::EDITAL_DOWNLOAD, $options);
         $parser = new EditalParser($file_get->getBody()->getContents());
         $nomeArquivo = $parser->getFileName()->current();
         $idAnexo = $parser->getIdAnexo()->current();
@@ -119,7 +119,7 @@ class EditalPageObject extends AbstractPageObject
                         ],
                         'save_to'   => fopen($path,'w')
             ];
-            $this->request('POST', 'http://www.siga.ap.gov.br/sgc/faces/pub/sgc/central/DownloadEditalPageList.jsp', $options2Download);
+            $this->request('POST', DefaultLink::EDITAL_DOWNLOAD, $options2Download);
             return $path;
         } else {
             return $path;

@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: joaosilva
- * Date: 01/02/19
- * Time: 08:40
- */
 
 namespace Forseti\Bot\Name\PageObject;
 
@@ -18,7 +12,7 @@ class PregoesAndamentoPageObject extends AbstractPageObject
 
     public function getAllAndamento()
     {
-        $parserAndamento = $this->getPage('http://www.siga.ap.gov.br/sgc/faces/pub/sgc/pregao/AssistirPageList.jsp');
+        $parserAndamento = $this->getPage(DefaultLink::PREGAO_ASSISTIRPAGELIST);
         $linhas = $parserAndamento->getAndamentoIterator('//table[@id="formAssistirPageList:agendaDataTable"]/tbody//tr[position() > 0]');
         foreach ($linhas as $key => $l) {
             $l->loteInfo = $this->getById($l->id);
@@ -30,13 +24,13 @@ class PregoesAndamentoPageObject extends AbstractPageObject
     public function getById($id = false)
     {
         // PAGINAÇÃO //
-        $requestPage = $this->request('POST', 'http://www.siga.ap.gov.br/sgc/faces/pub/sgc/pregao/PregaoPageView.jsp', [
+        $requestPage = $this->request('POST', DefaultLink::PREGAO_ANDAMENTOPREGAOPAGEVIEW, [
                 'form_params' => [
                     'AJAXREQUEST'  => 'j_id_jsp_55323938_0',
                     'form1' => 'form1',
                     'form1:aboutModalHeadOpenedState'   =>  '',
                     'form1:idPregao' => $id,
-                    'javax.faces.ViewState' => $this->getViewState('http://www.siga.ap.gov.br/sgc/faces/pub/sgc/pregao/PregaoPageView.jsp'),
+                    'javax.faces.ViewState' => $this->getViewState(DefaultLink::PREGAO_ANDAMENTOPREGAOPAGEVIEW),
                     'ajaxSingle' => 'form1:listaDataTable:j_id_jsp_55323938_45',
                     'form1:listaDataTable:j_id_jsp_55323938_45' => 1,
                     'AJAX:EVENTS_COUNT' => '1'
@@ -48,13 +42,13 @@ class PregoesAndamentoPageObject extends AbstractPageObject
 
         // COMECO CODIGO COM A PAGINACAO //
         for ($i=1; $i < $pageQtd ; $i++) { 
-            $request = $this->request('POST', 'http://www.siga.ap.gov.br/sgc/faces/pub/sgc/pregao/PregaoPageView.jsp', [
+            $request = $this->request('POST', DefaultLink::PREGAO_ANDAMENTOPREGAOPAGEVIEW, [
                     'form_params' => [
                         'AJAXREQUEST'  => 'j_id_jsp_55323938_0',
                         'form1' => 'form1',
                         'form1:aboutModalHeadOpenedState'   =>  '',
                         'form1:idPregao' => $id,
-                        'javax.faces.ViewState' => $this->getViewState('http://www.siga.ap.gov.br/sgc/faces/pub/sgc/pregao/PregaoPageView.jsp'),
+                        'javax.faces.ViewState' => $this->getViewState(DefaultLink::PREGAO_ANDAMENTOPREGAOPAGEVIEW),
                         'ajaxSingle' => 'form1:listaDataTable:j_id_jsp_55323938_45',
                         'form1:listaDataTable:j_id_jsp_55323938_45' => $i,
                         'AJAX:EVENTS_COUNT' => '1'
@@ -66,15 +60,20 @@ class PregoesAndamentoPageObject extends AbstractPageObject
 
             foreach ($linhas as $key => $l) {
                 $loteInfo = $this->getByLote($l->idLote->id, $id);
+                $l->idLote->sessao = $loteInfo;
                 $downloadLink = $this->getAtaDownload($l->idLote->id, $id);
                 $l->download = $downloadLink;
-                $l->idLote->sessao = $loteInfo;
                 $l->idPregao = $id;
                 $lotes[] = $l;
             }
         }
+
         // FIM CODIGO COM A PAGINACAO //
-        return $lotes;
+        if (isset($lotes)){
+            return $lotes;
+        } else {
+            return ['erro' => 'Nao foi possivel devolver o lote.', 'idPregao' => $id];
+        }
     }
 
     public function getByLote($idLote, $idPregao)
@@ -84,7 +83,11 @@ class PregoesAndamentoPageObject extends AbstractPageObject
         foreach ($linhasThru as $key => $l) {
             $mensagem[] = $l;
         }
-        return $mensagem;
+        if (!isset($mensagem)){
+            $mensagem = ['erro' =>   'Nao foi possivel receber a mensagem.', 'idLote'    => $idLote, 'idPregao'  => $idPregao];
+        } else {
+            return $mensagem;           
+        }
     }
 
     public function getAtaDownload($idLote, $idPregao)
@@ -100,11 +103,11 @@ class PregoesAndamentoPageObject extends AbstractPageObject
                             'form1:idPregao' => $idPregao,
                             'form1:tempo'    => '0',
                             'form1:imprimir1Button' => 'Imprimir Ata',
-                            'javax.faces.ViewState' => $this->getViewState('http://www.siga.ap.gov.br/sgc/faces/pub/sgc/pregao/AssistirPregaoPageView.jsp')
+                            'javax.faces.ViewState' => $this->getViewState(DefaultLink::PREGAO_ANDAMENTOASSISTIRPREGAOPAGEVIEW)
                         ],
                         'save_to'   => fopen($path,'w')
             ];
-            $file_get = $this->request('POST', 'http://www.siga.ap.gov.br/sgc/faces/pub/sgc/pregao/AssistirPregaoPageView.jsp', $options);
+            $file_get = $this->request('POST', DefaultLink::PREGAO_ANDAMENTOASSISTIRPREGAOPAGEVIEW, $options);
             return $path;
         } else {
             return $path;

@@ -16,7 +16,7 @@ class PregoesFuturosPageObject extends AbstractPageObject
 {
     public function getAllFuturos()
     {
-        $parserFuturos = $this->getPage('http://www.siga.ap.gov.br/sgc/faces/pub/sgc/pregao/FuturosPageList.jsp');
+        $parserFuturos = $this->getPage(DefaultLink::PREGAO_FUTUROPAGELIST);
         $linhas = $parserFuturos->getFuturosIterator('//table[@id="formFuturosPageList:agendaDataTable"]/tbody//tr[position() > 0]');
         foreach ($linhas as $key => $l) {
             $futuros[] = $l;

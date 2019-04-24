@@ -11,7 +11,7 @@ namespace Forseti\Bot\Name\Test\PageObject;
 use Forseti\Bot\Name\PageObject\DefaultPageObject;
 use Forseti\Bot\Name\Enums\DefaultLink;
 
-class HtmlTablePageObjectTest extends PageObjectTest
+class PregaoAssistirPregaoPageViewPageObjectTest extends PageObjectTest
 {
     protected function setUp()
     {
@@ -21,7 +21,8 @@ class HtmlTablePageObjectTest extends PageObjectTest
 
     public function testIfResponseIsOK()
     {
-        $response = $this->client->request('GET', DefaultLink::HTML_TABLES);
+
+        $response = $this->client->request('GET', DefaultLink::PREGAO_ANDAMENTOASSISTIRPREGAOPAGEVIEW);
 
         $this->assertEquals(200, $response->getStatusCode());
 

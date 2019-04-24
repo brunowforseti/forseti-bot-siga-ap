@@ -13,6 +13,7 @@ use Forseti\Bot\Name\Traits\ForsetiLoggerTrait;
 use GuzzleHttp\Exception\GuzzleException;
 use Symfony\Component\DomCrawler\Crawler;
 use Forseti\Bot\Name\Parser\DefaultParser;
+use Forseti\Bot\Name\Enums\DefaultLink;
 
 abstract class AbstractPageObject
 {
@@ -48,7 +49,7 @@ abstract class AbstractPageObject
     public function getViewState($url = false)
     {
         if (!$url)
-            $url = 'http://www.siga.ap.gov.br/sgc/faces/pub/sgc/pregao/AssistirPageList.jsp';
+            $url = DefaultLink::PREGAO_ASSISTIRPAGELIST;
 
         $request = $this->client->request('GET', $url);
         $html = $request->getBody()->getContents();

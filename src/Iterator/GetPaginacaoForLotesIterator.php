@@ -21,6 +21,9 @@ class GetPaginacaoForLotesIterator extends AbstractIterator
     {
         $node = $this->iterator->current();
         $idCount = $this->crawler->filterXpath('(//table[@id="form1:listaDataTable:j_id_jsp_55323938_45_table"]//tr//td)')->count()-1;
+        if ($idCount == 1){
+            $idCount++;
+        }
         return $idCount;
     }
 }

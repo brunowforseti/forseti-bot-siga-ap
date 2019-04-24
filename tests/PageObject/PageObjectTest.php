@@ -12,15 +12,10 @@ use Forseti\Bot\Name\Factory\GuzzleClientFactory;
 
 abstract class PageObjectTest extends \PHPUnit_Framework_TestCase
 {
-    protected $client;
-    protected $pageObject;
 
-    protected function setUp()
+    public function __construct()
     {
         $this->client = GuzzleClientFactory::getInstance();
     }
-
-    abstract protected function testIfResponseIsOK();
-    abstract protected function testRetornoHtml();
 
 }
