@@ -15,7 +15,7 @@ use Symfony\Component\DomCrawler\Crawler;
 
 class EditalPageObject extends AbstractPageObject
 {
-
+    
     public function getAllEditais()
     {
         $parser = $this->getPage(DefaultLink::EDITAL_PAGELIST);

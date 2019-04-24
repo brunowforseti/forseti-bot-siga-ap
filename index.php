@@ -21,8 +21,8 @@ $futurosPo = new PregoesFuturosPageObject();
 // Paginas //
 
 echo "<pre>";
-var_dump($editalPo->getAllEditais());
-var_dump($andamentoPo->getAllAndamento());
+// var_dump($editalPo->getAllEditais());
+// var_dump($andamentoPo->getAllAndamento());
 var_dump($futurosPo->getAllFuturos());
 // var_dump($andamentoPo->getById('10709'));
 die();
@@ -31,12 +31,12 @@ die();
 
 // Testes //
 
-$editalDownloadTest = new EditalDownloadPageObjectTest();
-$editalPageListTest = new EditalPageListPageObjectTest();
-$futurosPageViewTest = new FuturosPageViewPageObjectTest();
-$pregaoAssistirPageListTest = new PregaoAssistirPageListPageObjectTest();
-$pregaoAssistirPageViewTest = new PregaoAssistirPregaoPageViewPageObjectTest();
-$pregaoPageViewTest = new PregaoPageViewPageObjectTest();
+// $editalDownloadTest = new EditalDownloadPageObjectTest();
+// $editalPageListTest = new EditalPageListPageObjectTest();
+// $futurosPageViewTest = new FuturosPageViewPageObjectTest();
+// $pregaoAssistirPageListTest = new PregaoAssistirPageListPageObjectTest();
+// $pregaoAssistirPageViewTest = new PregaoAssistirPregaoPageViewPageObjectTest();
+// $pregaoPageViewTest = new PregaoPageViewPageObjectTest();
 
 echo "<pre>";
 // var_dump($editalDownloadTest->testIfResponseIsOK());

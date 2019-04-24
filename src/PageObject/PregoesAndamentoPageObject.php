@@ -21,6 +21,11 @@ class PregoesAndamentoPageObject extends AbstractPageObject
         return $andamento;
     }
 
+    public function searchPregao()
+    {
+        
+    }
+
     public function getById($id = false)
     {
         // PAGINAÇÃO //
