@@ -19,7 +19,24 @@ class EditalPageObject extends AbstractPageObject
             $l->download = $this->getEditalDownload($l->download);
             $idsEditais[] = $l;
         }
-        return $idsEditais;
+        // lista editais e adiciona informações dos pregoes futuros... +Numero_processo+ +Numero_repeticao+
+        $futurosPo = new PregoesFuturosPageObject();
+        $futurosMerge = $futurosPo->getAllFuturos();
+        foreach ($idsEditais as $key => $ed) {
+            foreach ($futurosMerge as $key => $ff) {
+                if ($ed->objeto == $ff->objeto){
+                    $ed->numero_processo = $ff->numero_processo;
+                    $ed->numero_repeticao = $ff->numero_repeticao;
+                    $idsFinais[] = $ed;
+                }
+            }
+            if ($ed->procedimento <> 'PREGÃO ELETRÔNICO'){
+                $idsFinais[] = $ed;
+            }
+        }
+        // lista editais e adiciona informações dos pregoes futuros... +Numero_processo+ +Numero_repeticao+ // 
+        // caso não, apenas retornar $idsEditais; //
+        return $idsFinais;
     }
 
     public function getDespesasEdital($idEdital) 

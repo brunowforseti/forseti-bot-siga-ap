@@ -19,7 +19,7 @@ class EditaisIterator extends AbstractIterator
             $ids[] = preg_replace("/[^0-9]/", '' , $preg);
         }
         $data_abertura   = $node->getElementsByTagName('td')->item(0)->textContent;
-        $numero           = $node->getElementsByTagName('td')->item(1)->textContent;
+        $numero_edital           = $node->getElementsByTagName('td')->item(1)->textContent;
         $objeto          = $node->getElementsByTagName('td')->item(2)->textContent;
         $orgao          = $node->getElementsByTagName('span')->item(3)->textContent;
         $procedimento = $node->getElementsByTagName('td')->item(4)->textContent;
@@ -28,7 +28,7 @@ class EditaisIterator extends AbstractIterator
 
         $andamento = new \stdClass();
         $andamento->data_abertura = $data_abertura;
-        $andamento->numero = $numero;
+        $andamento->numero_edital = $numero_edital;
         $andamento->objeto = utf8_decode(trim($objeto));
         $andamento->procedimento = utf8_decode(trim($procedimento));
         $andamento->download = $download;
