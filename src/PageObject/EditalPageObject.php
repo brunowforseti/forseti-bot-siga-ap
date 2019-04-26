@@ -16,6 +16,7 @@ class EditalPageObject extends AbstractPageObject
         $linhas = $parserLinhas->getEditaisIterator('//table[@id="form_EditalPageList:listaDataTable"]/tbody//tr[position() > 0]');
         foreach ($linhas as $key => $l) {
             $l->itens_despesa = $this->getDespesasEdital($l->download);
+            $l->novidades = $this->getNovidadesEdital($l->download);
             $l->download = $this->getEditalDownload($l->download);
             $idsEditais[] = $l;
         }
@@ -36,7 +37,88 @@ class EditalPageObject extends AbstractPageObject
         }
         // lista editais e adiciona informações dos pregoes futuros... +Numero_processo+ +Numero_repeticao+ // 
         // caso não, apenas retornar $idsEditais; //
-        return $idsFinais;
+        if (isset($idsFinais)){
+            $this->info('getAllEditais OK.');
+            return $idsFinais;
+        } else {
+            $this->error('getAllEditais ERRO.');
+            return '';
+        }
+
+    }
+
+    public function searchEdital($numero_processo = false)
+    {
+        $options = [
+                        'form_params' => [
+                            'form_EditalPageList' => 'form_EditalPageList',
+                            'form_EditalPageList:aboutModalHeadOpenedState' => '',
+                            'form_EditalPageList:editaisBidHidden'    => false,
+                            'form_EditalPageList:procurarPorCombo' => 5,
+                            'form_EditalPageList:palavraChaveInput'    => $numero_processo,
+                            'form_EditalPageList:pesquisarButton'   => 'Pesquisar',
+                            'javax.faces.ViewState' => $this->getViewState(DefaultLink::EDITAL_PAGELIST)
+                        ],
+        ];
+
+        $getSearch = $this->request('POST', DefaultLink::EDITAL_PAGELIST, $options);
+        $parserLinhas = new EditalParser($getSearch->getBody()->getContents());
+        $linhas = $parserLinhas->getEditaisIterator('//table[@id="form_EditalPageList:listaDataTable"]/tbody//tr[position() > 0]');
+        foreach ($linhas as $key => $l) {
+            $l->itens_despesa = $this->getDespesasEdital($l->download);
+            $l->novidades = $this->getNovidadesEdital($l->download);
+            $l->download = $this->getEditalDownload($l->download);
+            $idsEditais[] = $l;
+        }
+        $futurosPo = new PregoesFuturosPageObject();
+        $futurosMerge = $futurosPo->getAllFuturos();
+        foreach ($idsEditais as $key => $ed) {
+            foreach ($futurosMerge as $key => $ff) {
+                if ($ed->objeto == $ff->objeto){
+                    $ed->numero_processo = $ff->numero_processo;
+                    $ed->numero_repeticao = $ff->numero_repeticao;
+                    $idsFinais[] = $ed;
+                }
+            }
+            if ($ed->procedimento <> 'PREGÃO ELETRÔNICO'){
+                $idsFinais[] = $ed;
+            }
+        }
+        if (isset($idsFinais)){
+            $this->info('searchEdital OK - Numero Processo: '.$numero_processo);
+            return $idsFinais;
+        } else {
+            $this->error('Falha searchEdital. Numero Processo: '.$numero_processo);
+            return '';
+        }
+    }
+
+    public function getNovidadesEdital($idEdital)
+    {
+        $options = [
+                        'form_params' => [
+                            'form_EditalPageList' => 'form_EditalPageList',
+                            'form_EditalPageList:aboutModalHeadOpenedState' => '',
+                            'form_EditalPageList:editaisBidHidden'    => false,
+                            'form_EditalPageList:procurarPorCombo' => 3,
+                            'form_EditalPageList:situacaoCombo'    => 1,
+                            'javax.faces.ViewState' => $this->getViewState(DefaultLink::EDITAL_PAGELIST),
+                            'form_EditalPageList:listaDataTable:0:downloadLink' => 'form_EditalPageList:listaDataTable:0:downloadLink',
+                            'idEdital' => $idEdital,
+                        ],
+        ];
+        $html = $this->request('POST', DefaultLink::EDITAL_PAGELIST, $options);
+        $parserById = new EditalParser($html->getBody()->getContents());
+        $news = $parserById->getNovidadesIterator('//span[@id="form1:novidadesText"]')->current();
+
+        if (isset($news)){
+            $this->info('getNovidadesEdital OK. idEdital : '.$idEdital);
+            return $news;
+        } else {
+            $this->error('getNovidadesEdital FALHA. idEdital : '.$idEdital);
+            return '';
+        }
+
     }
 
     public function getDespesasEdital($idEdital) 
@@ -75,10 +157,13 @@ class EditalPageObject extends AbstractPageObject
             $itens_despesa[] = $l;
         }
 
-        if (isset($itens_despesa))
+        if (isset($itens_despesa)){
+            $this->info('getDespesasEdital OK. idEdital : '.$idEdital);
             return $itens_despesa;
-        else
+        } else {
+            $this->error('getDespesasEdital FALHA. idEdital : '.$idEdital);
             return '';
+        }
     }
 
     public function getEditalDownload($idEdital)
@@ -131,8 +216,10 @@ class EditalPageObject extends AbstractPageObject
                         'save_to'   => fopen($path,'w')
             ];
             $this->request('POST', DefaultLink::EDITAL_DOWNLOAD, $options2Download);
+            $this->info('getEditalDownload OK. idEdital : '.$idEdital);
             return $path;
         } else {
+            $this->notice('getEditalDownload OK');
             return $path;
         }
     }

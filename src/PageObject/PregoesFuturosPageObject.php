@@ -16,6 +16,14 @@ class PregoesFuturosPageObject extends AbstractPageObject
         foreach ($linhas as $key => $l) {
             $futuros[] = $l;
         }
-        return $futuros;
+
+        if (isset($futuros)){
+            $this->info('PO getAllFuturos OK');
+            return $futuros;
+        } else {
+            $this->error('Erro na requisição getAllFuturos', $html);
+            return '';
+        }
+
     }
 }

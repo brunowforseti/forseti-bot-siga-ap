@@ -17,6 +17,10 @@ abstract class AbstractPageObject
 
     public function __construct()
     {
+        putenv('FORSETI_LOGGER_FILE='. __DIR__ . '/logs.log');
+        putenv('FORSETI_LOGGER_FILE_LEVEL=' . \Monolog\Logger::INFO);
+        putenv('FORSETI_LOGGER_DATEFORMAT=' . 'Y-m-d H:i:s');
+        putenv('FORSETI_LOGGER_FORMAT=' . "[%datetime%] %channel%.%level_name%: %message% %context% %extra%\n");
         $this->client = GuzzleClientFactory::getInstance();
     }
 

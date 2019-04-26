@@ -24,15 +24,13 @@ $futurosPo = new PregoesFuturosPageObject();
 
 // Paginas //
 echo "<pre>";
-	highlight_string("<?php\n " . var_export($editalPo->getAllEditais(), true) . "?>");
-	echo '<script>document.getElementsByTagName("code")[0].getElementsByTagName("span")[1].remove();
-	document.getElementsByTagName("code")[0].getElementsByTagName("span")[document.getElementsByTagName("code")[0].getElementsByTagName("span").length - 1].remove() ; </script>';
+var_dump($futurosPo->getAllFuturos());
 die();
-/*var_dump($andamentoPo->getAllAndamento());*/
+// var_dump($andamentoPo->getAllAndamento()); 
 // var_dump($futurosPo->getAllFuturos());
-/*var_dump($andamentoPo->getDataAberturaForPregao('10647'));*/
-/*var_dump($andamentoPo->getById('10709'));*/
-die();
+// var_dump($andamentoPo->getDataAberturaForPregao('10647'));
+// var_dump($andamentoPo->getById('10709'));
+// die();
 
 // Paginas // 
 
@@ -45,13 +43,13 @@ die();
 // $pregaoAssistirPageViewTest = new PregaoAssistirPregaoPageViewPageObjectTest();
 // $pregaoPageViewTest = new PregaoPageViewPageObjectTest();
 
-echo "<pre>";
+// echo "<pre>";
 // var_dump($editalDownloadTest->testIfResponseIsOK());
 // var_dump($editalPageListTest->testIfResponseIsOK());
 // var_dump($futurosPageViewTest->testIfResponseIsOK());
 // var_dump($pregaoAssistirPageListTest->testIfResponseIsOK());
 // var_dump($pregaoAssistirPageViewTest->testIfResponseIsOK());
 // var_dump($pregaoPageViewTest->testIfResponseIsOK());
-die();
+// die();
 
 // Testes //

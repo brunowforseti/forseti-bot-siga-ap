@@ -2,7 +2,7 @@
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
-putenv('FORSETI_LOGGER_FILE='. __DIR__ . '/resources/log_de_test.log');
+putenv('FORSETI_LOGGER_FILE='. __DIR__ . '/resources/logs.log');
 putenv('FORSETI_LOGGER_FILE_LEVEL=' . \Monolog\Logger::INFO);
 putenv('FORSETI_LOGGER_DATEFORMAT=' . 'Y-m-d H:i:s');
 putenv('FORSETI_LOGGER_FORMAT=' . "[%datetime%] %channel%.%level_name%: %message% %context% %extra%\n");

@@ -1,0 +1,551 @@
+[2019-04-26 15:52:33] Forseti\Bot\Name\PageObject\PregoesFuturosPageObject.INFO: seaquinevassesquia  
+[2019-04-26 16:01:39] TesteNoArquivo.INFO: INFO  
+[2019-04-26 16:01:39] TesteNoArquivo.NOTICE: NOTICE  
+[2019-04-26 16:01:39] TesteNoArquivo.WARNING: WARNING  
+[2019-04-26 16:01:39] TesteNoArquivo.ERROR: ERROR  
+[2019-04-26 16:01:39] TesteNoArquivo.CRITICAL: CRITICAL  
+[2019-04-26 16:01:39] TesteNoArquivo.ALERT: ALERT  
+[2019-04-26 16:01:39] TesteNoArquivo.EMERGENCY: EMERGENCY  [2019-04-26 16:52:52] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:52:52] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:52:53] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:52:53] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:52:53] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:52:53] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:52:54] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:52:54] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:52:54] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getById OK.  
+[2019-04-26 16:52:56] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getDataAberturaForPregao OK > 10647  
+[2019-04-26 16:53:00] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:00] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:01] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:01] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:01] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:01] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:01] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getById OK.  
+[2019-04-26 16:53:03] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getDataAberturaForPregao OK > 10709  
+[2019-04-26 16:53:08] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:08] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:09] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:09] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:10] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:10] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:10] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:10] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:11] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:11] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:11] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:11] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:12] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:12] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:12] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:12] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:12] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:12] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:13] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:13] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:13] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:13] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:14] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:14] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:14] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:14] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:15] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:15] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:15] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:15] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:16] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:16] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:16] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:16] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:17] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:17] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:17] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:17] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:18] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:18] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:18] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:18] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:19] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:19] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:19] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:19] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:20] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:20] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:20] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:20] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:21] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:21] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:21] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:21] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:22] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:22] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:22] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:22] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:23] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:23] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:25] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:25] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:26] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:26] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:26] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:26] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:27] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:27] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:27] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:27] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:28] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:28] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:28] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:28] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:29] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:29] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:29] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:29] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:30] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:30] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:30] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:30] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:31] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:31] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:32] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:32] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:32] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:32] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:32] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:32] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:33] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:33] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:33] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:33] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:34] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:34] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:34] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:34] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:35] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:35] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:35] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:35] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:36] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:36] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:36] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:36] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:37] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:37] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:37] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:37] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:38] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:38] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:38] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:38] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:39] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:39] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:40] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:40] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:40] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:40] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:42] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:42] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:43] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:43] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:44] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:44] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:44] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:44] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:44] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:44] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:45] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:45] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:45] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:45] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:45] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:45] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:46] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:46] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:46] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:46] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:47] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:47] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:47] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:47] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:48] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:48] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:48] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:48] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:49] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:49] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:49] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getById OK.  
+[2019-04-26 16:53:51] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getDataAberturaForPregao OK > 10627  
+[2019-04-26 16:53:56] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:56] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:56] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:56] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:57] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:57] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:57] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:57] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:58] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:58] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:58] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:58] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:59] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:59] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:53:59] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:53:59] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:00] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:00] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:00] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:00] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:01] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:01] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:01] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:01] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:02] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:02] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:02] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:02] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:03] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:03] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:03] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:03] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:04] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:04] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:04] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:04] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:05] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:05] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:06] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:06] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:06] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:06] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:07] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:07] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:07] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:07] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:08] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:08] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:08] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:08] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:09] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:09] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:09] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:09] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:10] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:10] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:10] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:10] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:11] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:11] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:13] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:13] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:14] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:14] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:14] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:14] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:15] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:15] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:15] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:15] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:16] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:16] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:16] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:16] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:17] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:17] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:17] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:17] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:18] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:18] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:18] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:18] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:19] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:19] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:19] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:19] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:20] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:20] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:20] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:20] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:21] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:21] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:22] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:22] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:22] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:22] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:23] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:23] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:23] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:23] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:24] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:24] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:24] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:24] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:25] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:25] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:25] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:25] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:26] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:26] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:26] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:26] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:27] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:27] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:27] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:27] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:28] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:28] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:28] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:28] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:31] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:31] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:32] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:32] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:32] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:32] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:32] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:32] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:33] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:33] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:33] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:33] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:34] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:34] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:34] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:34] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:35] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:35] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:36] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:36] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:36] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:36] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:37] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:37] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:37] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:37] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:38] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:38] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:38] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:38] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:39] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:39] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:39] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:39] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:40] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:40] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:40] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:40] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:41] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:41] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:41] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:41] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:42] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:42] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:42] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:42] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:43] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:43] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:43] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:43] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:44] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:44] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:44] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:44] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:45] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:45] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:45] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:45] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:46] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:46] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:46] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getById OK.  
+[2019-04-26 16:54:48] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getDataAberturaForPregao OK > 10571  
+[2019-04-26 16:54:53] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:53] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:54] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:54] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:54] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:54] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:55] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:55] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:56] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:56] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:56] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:56] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:57] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:57] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:58] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:58] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:58] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:58] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:59] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:59] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:54:59] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:54:59] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:00] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:00] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:00] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:00] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:01] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:01] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:01] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:01] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:02] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:02] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:02] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:02] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:03] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:03] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:03] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:03] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:04] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:04] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:05] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:05] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:05] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:05] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:06] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:06] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:06] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:06] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:07] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:07] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:08] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:08] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:08] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:08] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:09] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:09] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:09] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:09] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:10] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:10] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:12] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:12] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:13] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:13] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:14] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:14] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:14] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:14] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:15] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:15] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:15] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:15] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:16] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:16] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:17] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:17] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:17] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:17] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:18] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:18] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:18] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:18] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:19] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:19] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:19] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:19] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:20] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:20] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:20] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:20] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:21] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:21] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:21] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:21] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:22] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:22] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:22] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:22] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:23] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:23] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:23] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:23] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:24] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:24] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:24] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:24] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:25] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:25] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:25] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:25] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:26] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:26] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:27] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:27] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:28] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:28] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:29] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:29] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:29] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:29] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:32] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:32] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:32] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:32] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:33] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:33] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:34] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:34] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:34] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:34] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:35] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:35] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:36] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:36] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:36] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:36] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:37] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:37] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:38] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:38] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:38] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:38] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:39] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:39] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:40] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:40] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:40] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:40] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:41] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:41] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:41] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:41] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:42] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:42] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:43] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:43] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:43] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:43] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:44] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:44] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:44] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:44] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:46] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:46] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:46] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:46] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:47] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:47] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:47] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:47] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:48] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:48] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:49] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:49] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:49] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:49] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:50] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:50] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:50] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:50] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:50] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getById OK.  
+[2019-04-26 16:55:53] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getDataAberturaForPregao OK > 10447  
+[2019-04-26 16:55:57] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:55:57] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:55:57] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getById OK.  
+[2019-04-26 16:55:59] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getDataAberturaForPregao OK > 10410  
+[2019-04-26 16:56:03] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getByLote OK  
+[2019-04-26 16:56:03] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: Arquivo já existe. Sem necessidade de substituição.  
+[2019-04-26 16:56:03] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getById OK.  
+[2019-04-26 16:56:05] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getDataAberturaForPregao OK > 10287  
+[2019-04-26 16:56:05] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: PO getAllAndamento OK  
+[2019-04-26 16:59:22] Forseti\Bot\Name\PageObject\PregoesFuturosPageObject.INFO: PO getAllFuturos OK  

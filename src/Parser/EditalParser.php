@@ -7,6 +7,7 @@ use Forseti\Bot\Name\Iterator\EditalIdAnexoIterator;
 use Forseti\Bot\Name\Iterator\ViewStateDownloadIterator;
 use Forseti\Bot\Name\Iterator\DespesasIterator;
 use Forseti\Bot\Name\Iterator\EditaisIterator;
+use Forseti\Bot\Name\Iterator\NovidadesIterator;
 
 
 class EditalParser extends AbstractParser
@@ -34,6 +35,10 @@ class EditalParser extends AbstractParser
     public function getDespesasIterator($xpath)
     {
         return new DespesasIterator($this->getHtml(), $xpath);
+    }
+    public function getNovidadesIterator($xpath)
+    {
+        return new NovidadesIterator($this->getHtml(), $xpath);
     }
 
 }

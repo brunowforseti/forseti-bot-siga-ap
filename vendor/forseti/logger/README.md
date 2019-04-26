@@ -46,7 +46,7 @@ putenv('FORSETI_LOGGLY_LEVEL=' . \Monolog\Logger::INFO);
 É necessário obrigatório definir a variável de ambiente **FORSETI_LOGGER_FILE**
 Exemplo:
 ```php
-putenv('FORSETI_LOGGER_FILE='. __DIR__ . '/resources/log_de_test.log');
+putenv('FORSETI_LOGGER_FILE='. __DIR__ . '/resources/logger.log');
 ```
 
 Opcionalmente é possível:
