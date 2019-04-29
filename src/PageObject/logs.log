@@ -549,3 +549,4 @@
 [2019-04-26 16:56:05] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: getDataAberturaForPregao OK > 10287  
 [2019-04-26 16:56:05] Forseti\Bot\Name\PageObject\PregoesAndamentoPageObject.INFO: PO getAllAndamento OK  
 [2019-04-26 16:59:22] Forseti\Bot\Name\PageObject\PregoesFuturosPageObject.INFO: PO getAllFuturos OK  
+[2019-04-29 08:15:20] Forseti\Bot\Name\PageObject\PregoesFuturosPageObject.INFO: PO getAllFuturos OK  

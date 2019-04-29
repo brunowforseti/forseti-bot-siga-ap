@@ -1,11 +1,11 @@
 {
-    "name": "forseti/bot-default",
-    "description": "Estrutura de bot padrao",
+    "name": "forseti/forseti-bot-siga-ap",
+    "description": "Estrutura do bot Siga AP",
     "type": "project",
     "authors": [
         {
-            "name": "joao",
-            "email": "joao.silva@forseti.com.br"
+            "name": "bruno",
+            "email": "bruno.farias@forseti.com.br"
         }
     ],
 
